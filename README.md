@@ -2,6 +2,7 @@
 
 
 Created a basic blockchain using youtube video: https://www.youtube.com/watch?v=zVqczFZr124 for reference.
+Added cross chain transaction partial support
 
 <h2>Features</h2>
 <p>
