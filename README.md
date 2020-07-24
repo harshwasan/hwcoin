@@ -12,7 +12,7 @@ Added cross chain transaction partial support
 
 3)Made a buffer chain to keep record of all transactions which then can be used to push the transactions onto the recieving and sending chain. </p>
 
-<h4>Limitations and bugs</h4>
+<h4>Corrections limitations and bugs</h4>
 <p>
 1)Need to correct false transactions bieng created into senders chain with the receviers chain address.(need to change getbalance method)
   
