@@ -13,6 +13,7 @@ let bufchain= new bblockchain();
 const tx2= new btransaction(mywalletadd,mywalletadd1,10,'hwcoin','hwcoin1');
 tx2.signtx(mykey);
 bufchain.addtransaction(tx2);
+// bufchain.minependingtansactions();
 
 
 //-------add balance----------
@@ -84,4 +85,13 @@ console.log("is chain valid " + hwcoin1.isblockchainvalid());
 
 //---- view chain in console--------
 console.log(JSON.stringify(hwcoin, null, 4));
+console.log('___________________________________________________________________________________________________________')
+console.log('___________________________________________________________________________________________________________')
+console.log('___________________________________________________________________________________________________________')
 console.log(JSON.stringify(hwcoin1, null, 4));
+console.log('___________________________________________________________________________________________________________')
+console.log('___________________________________________________________________________________________________________')
+console.log('___________________________________________________________________________________________________________')
+console.log(JSON.stringify(bufchain, null, 4));
+
+console.log("is chain valid " + bufchain.isblockchainvalid());

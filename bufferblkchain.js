@@ -101,8 +101,9 @@ class bblockchain {
        // console.log("blockmined");
        // console.log(miningrewardadd);
         this.chain.push(Block);
+        this.pendingtansactions=[new btransaction(null,null,null)];
         return (Block.hash);
-        //this.pendingtansactions=[new transaction(null,miningrewardadd,this.miningreward)];
+      
         
     }
     addtransaction(transaction){
