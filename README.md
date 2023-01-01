@@ -16,8 +16,9 @@ Added cross chain transaction partial support
 <h4>Corrections , limitations and bugs</h4>
 <hr>
 <p>
-1) Corrections for false transactions being created into senders chain with the receviers chain address. (need to change getbalance method)
+1) Corrections for false transactions being created into senders chain with the receviers chain address. (need to change getbalance method).
   
 2) Pending implementation for checking methods which can make sure the chains are in sync with the bufferchain and in future versions also directly pull the incoming transactions from thebufferchain which allows self correction.
   
-3) Currently 3 requests to 3 different chains are needed to be sent to ensure the system works which needs to be changed to only one push to the bufferchain and the    receiving and sending chains should pull the transactions automatically</p>
+3) Currently 3 requests to 3 different chains are needed to be sent to ensure the system works which needs to be changed to only one push to the bufferchain and the    receiving and sending chains should pull the transactions automatically.
+</p>
